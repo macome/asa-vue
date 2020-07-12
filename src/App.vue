@@ -1,10 +1,11 @@
 <template>
   <div id="app">
-    
+
     <header-links-component />
     
-    <router-view></router-view>
-
+    <div>
+      <router-view></router-view>
+    </div>
   </div>
 </template>
 
